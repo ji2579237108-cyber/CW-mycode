@@ -1,0 +1,37 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.intelliSenseUpdateDelay": 2000,
+    "C_Cpp.workspaceParsingPriority": "highest",
+    "C_Cpp.enhancedColorization": "enabled",
+    "C_Cpp.suggestSnippets": true,
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.dimInactiveRegions": true,
+    "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": false,
+    "C_Cpp.default.intelliSenseMode": "msvc-x64",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.loggingLevel": "Information",
+    "C_Cpp.vcpkg.enabled": false,
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": false,
+    "C_Cpp.inlayHints.parameterNames.enabled": false,
+    "C_Cpp.intelliSenseCacheSize": 5120,
+    "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/.vscode",
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "files.exclude": {
+        "**/Project/Objects/**": true,
+        "**/Project/RTE/**": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/Project/Objects": true,
+        "**/Project/RTE": true
+    }
+}

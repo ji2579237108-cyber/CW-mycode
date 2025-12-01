@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/User",
+                "${workspaceFolder}/APP",
+                "${workspaceFolder}/APP/protocol",
+                "${workspaceFolder}/APP/srv",
+                "${workspaceFolder}/BoardPackge",
+                "${workspaceFolder}/CwDriver/Inc",
+                "${workspaceFolder}/CwDriver/Src",
+                "${workspaceFolder}/Firmware/CMSIS",
+                "${workspaceFolder}/Firmware/CMSIS/GD/GD32F30x/Include",
+                "${workspaceFolder}/Firmware/GD32Driver/Include",
+                "${workspaceFolder}/Firmware/GD32Driver/Source",
+                "${workspaceFolder}/Middle",
+                "${workspaceFolder}/Peripheral/Inc",
+                "${workspaceFolder}/Peripheral/Src",
+                "${workspaceFolder}/SeggerRTT/RTT",
+                "${workspaceFolder}/UTEST_hard",
+                "${workspaceFolder}/cf"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "GD32F30X_HD",
+                "USE_STDPERIPH_DRIVER",
+                "ARM_MATH_CM4",
+                "__FPU_PRESENT=1U",
+                "__FPU_USED=1U"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}

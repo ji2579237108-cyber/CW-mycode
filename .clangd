@@ -1,0 +1,56 @@
+CompileFlags:
+  Add:
+    - -DGDS32F30X_HD
+    - -DUSE_STDPERIPH_DRIVER
+    - -DARM_MATH_CM4
+    - -D__FPU_PRESENT=1U
+    - -D__FPU_USED=1U
+    - -IUser
+    - -IAPP
+    - -IAPP/protocol
+    - -IAPP/srv
+    - -IAPP/Diagnose
+    - -IBoardPackge
+    - -ICwDriver/Inc
+    - -ICwDriver/Src
+    - -IFirmware/CMSIS
+    - -IFirmware/CMSIS/GD/GD32F30x/Include
+    - -IFirmware/GD32Driver/Include
+    - -IFirmware/GD32Driver/Source
+    - -IMiddle
+    - -IPeripheral/Inc
+    - -IPeripheral/Src
+    - -ISeggerRTT/RTT
+    - -ISeggerRTT/Examples
+    - -ISeggerRTT/Syscalls
+    - -IUTEST_hard
+    - -Icf
+    - -mcpu=cortex-m4
+    - -mthumb
+    - -mfpu=fpv4-sp-d16
+    - -mfloat-abi=hard
+    - -std=c11
+  Remove:
+    - -mabi=aapcs
+    - -fno-exceptions
+    - -fno-rtti
+
+Diagnostics:
+  Suppress:
+    - pp_file_not_found
+    - unused-parameter
+    - unknown-pragmas
+    - macro-redefined
+
+Index:
+  Background: Build
+  StandardLibrary: No
+
+Hover:
+  ShowAKA: Yes
+
+InlayHints:
+  Enabled: No
+
+Completion:
+  AllScopes: Yes
